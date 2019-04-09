@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "4a3487dd-6f87-40fb-bc00-626a447a1ad2",
+		"name": "WishList_AA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t\"useremail\":\"aa@aa.com\",\n\t\"usersenha\":\"aaaaa\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"aa@aa.com\",\n\t\"senha\":\"aaaaa\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/wishes/SeusDesejos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhQGFhLmNvbSIsImp0aSI6IjEiLCJleHAiOjE1NTQ4MjA2NzgsImlzcyI6Indpc2hsaXN0LldlYkFwaSIsImF1ZCI6Indpc2hsaXN0LldlYkFwaSJ9.umi9mUCof0SL1iEaW58trOoXJ9Z0Y1yRMUilrw_2sNo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/wishes/SeusDesejos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"wishes",
+						"SeusDesejos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/wishes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhQGFhLmNvbSIsImp0aSI6IjEiLCJleHAiOjE1NTQ4MTA5NjAsImlzcyI6Indpc2hsaXN0LldlYkFwaSIsImF1ZCI6Indpc2hsaXN0LldlYkFwaSJ9.XeWDcDUo8FnAmAfWiTSRxDYDkN0p93ZOhvjDx3pV81U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"wishDescription\": \"Eu quero comida e café\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/wishes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"wishes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
