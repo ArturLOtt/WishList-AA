@@ -25,10 +25,7 @@ namespace senai_wishList_desafio_AA
                     options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore; // Ignora os nulos;
                 });
 
-<<<<<<< HEAD
-=======
             //configurando cors
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
@@ -38,15 +35,12 @@ namespace senai_wishList_desafio_AA
                         .AllowCredentials());
             });
 
-<<<<<<< HEAD
-=======
             //configurando swagger
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
             });
 
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
             //Configurando a autenticação/jwt/token
             services.AddAuthentication(options =>
             {
@@ -73,10 +67,6 @@ namespace senai_wishList_desafio_AA
                         ValidAudience = "wishlist.WebApi"
                     };
                 });
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new Info { Title = "SP Medical Group", Version = "v1" });
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -86,9 +76,6 @@ namespace senai_wishList_desafio_AA
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseSwagger();
-
-            app.UseCors("CorsPolicy");
 
             app.UseSwagger();
 

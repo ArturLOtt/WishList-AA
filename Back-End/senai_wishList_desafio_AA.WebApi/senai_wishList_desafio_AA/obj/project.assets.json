@@ -3013,23 +3013,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "Swashbuckle.AspNetCore/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "4.0.1",
-          "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1",
-          "Swashbuckle.AspNetCore.SwaggerUI": "4.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
-        }
-      },
-=======
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
       "Swashbuckle.AspNetCore.Swagger/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -8060,21 +8043,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
-    "Swashbuckle.AspNetCore/4.0.1": {
-      "sha512": "k8TzWTpjwO+4xXsMaaAsAPAdYKyM5wuRvSP+ZmgtyXwhW45ChBVq3xdVJ8Tz+hQ0ziBZSh5p6r2dkRN6SyasVA==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.dll",
-        "swashbuckle.aspnetcore.4.0.1.nupkg.sha512",
-        "swashbuckle.aspnetcore.nuspec"
-      ]
-    },
-=======
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
     "Swashbuckle.AspNetCore.Swagger/4.0.1": {
       "sha512": "2+dXBiOvwjNmkMkBOqGU9ShBJXQp6+UN/Kxfk3HLxwsof9zzgRZ+3rOdjHQuYiY7t1Nl7wlCgn9HbmJyZGhdaQ==",
       "type": "package",
@@ -12643,42 +12611,29 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
-<<<<<<< HEAD
-      "Swashbuckle.AspNetCore >= 4.0.1",
-      "Swashbuckle.AspNetCore.Swagger >= 4.0.1"
-=======
       "Swashbuckle.AspNetCore.Swagger >= 4.0.1",
       "Swashbuckle.AspNetCore.SwaggerGen >= 4.0.1",
       "Swashbuckle.AspNetCore.SwaggerUI >= 4.0.1"
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
     ]
   },
   "packageFolders": {
-    "C:\\Users\\22972804830\\.nuget\\packages\\": {},
+    "C:\\Users\\44680479841\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\44680479841\\Desktop\\senai-wishlist-AA\\WishList-AA\\Back-End\\senai_wishList_desafio_AA.WebApi\\senai_wishList_desafio_AA\\senai_wishList_desafio_AA.csproj",
       "projectName": "senai_wishList_desafio_AA",
       "projectPath": "C:\\Users\\44680479841\\Desktop\\senai-wishlist-AA\\WishList-AA\\Back-End\\senai_wishList_desafio_AA.WebApi\\senai_wishList_desafio_AA\\senai_wishList_desafio_AA.csproj",
       "packagesPath": "C:\\Users\\44680479841\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\44680479841\\Desktop\\senai-wishlist-AA\\WishList-AA\\Back-End\\senai_wishList_desafio_AA.WebApi\\senai_wishList_desafio_AA\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\22972804830\\Documents\\projetos\\Senai_Tecnico\\Sprint4 - FrontEnd\\2019-04-08 projeto dupla\\Back-End\\senai_wishList_desafio_AA.WebApi\\senai_wishList_desafio_AA\\senai_wishList_desafio_AA.csproj",
-      "projectName": "senai_wishList_desafio_AA",
-      "projectPath": "C:\\Users\\22972804830\\Documents\\projetos\\Senai_Tecnico\\Sprint4 - FrontEnd\\2019-04-08 projeto dupla\\Back-End\\senai_wishList_desafio_AA.WebApi\\senai_wishList_desafio_AA\\senai_wishList_desafio_AA.csproj",
-      "packagesPath": "C:\\Users\\22972804830\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\22972804830\\Documents\\projetos\\Senai_Tecnico\\Sprint4 - FrontEnd\\2019-04-08 projeto dupla\\Back-End\\senai_wishList_desafio_AA.WebApi\\senai_wishList_desafio_AA\\obj\\",
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\22972804830\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\44680479841\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12722,13 +12677,6 @@
             "target": "Package",
             "version": "[2.1.1, )"
           },
-<<<<<<< HEAD
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[4.0.1, )"
-          },
-          "Swashbuckle.AspNetCore.Swagger": {
-=======
           "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[4.0.1, )"
@@ -12738,7 +12686,6 @@
             "version": "[4.0.1, )"
           },
           "Swashbuckle.AspNetCore.SwaggerUI": {
->>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
             "target": "Package",
             "version": "[4.0.1, )"
           }
