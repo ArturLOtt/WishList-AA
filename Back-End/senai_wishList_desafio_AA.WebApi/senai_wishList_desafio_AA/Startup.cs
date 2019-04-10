@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace senai_wishList_desafio_AA
 {
@@ -23,6 +24,15 @@ namespace senai_wishList_desafio_AA
                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore; // Ignora os loops;
                     options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore; // Ignora os nulos;
                 });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
 
             //Configurando a autenticação/jwt/token
             services.AddAuthentication(options =>
@@ -49,6 +59,10 @@ namespace senai_wishList_desafio_AA
                         ValidAudience = "wishlist.WebApi"
                     };
                 });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "SP Medical Group", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +72,9 @@ namespace senai_wishList_desafio_AA
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSwagger();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthentication();
 
