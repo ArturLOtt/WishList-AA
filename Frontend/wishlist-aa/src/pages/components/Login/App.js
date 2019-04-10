@@ -35,39 +35,52 @@ efetuarLogin(event){
 
   render() {
     return (
+      <body>
       <div className="App">
-        <div>
-          <div className="tela-quadrada-invisivel">
-            <form onSubmit={this.efetuarLogin.bind(this)}>
-              <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Email</label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="login-email"
-                  aria-describedby="emailHelp"
-                  placeholder="Insira seu email"
-                  value={this.state.email}
-                  onChange={this.atualizarStateEmail.bind(this)}
-                />
-                <label htmlFor="exampleInputPassword1">Password</label>
-                <input
-                  type="password"
-                  className="form-control"
-                  id="login-pass"
-                  placeholder="Insira sua senha"
-                  value={this.state.pass}
-                  onChange={this.atualizarStateSenha.bind(this)}
-                />
-                <button type="submit" className="btn btn-primary">
-                  Submit
-                </button>
-                <small>Não tem um cadastro?</small>
-              </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div className="card card-signin my-5 tela-quadrada-invisivel">
+              <div className="card-body ">
+                <h5 className="card-title text-center cor">Logar</h5>
+                <form className="form-signin" onSubmit={this.efetuarLogin.bind(this)}>
+                  <div className="form-group">
+                    <label htmlFor="inputEmail" className="cor">Email</label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="login-email"
+                      aria-describedby="emailHelp"
+                      placeholder="Insira seu email"
+                      value={this.state.email}
+                      onChange={this.atualizarStateEmail.bind(this)}
+                    />
+                    <br/>
+                    <div className="form-label-group">
+                    <label htmlFor="inputPassword" className="cor">Password</label>
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="login-pass"
+                      placeholder="Insira sua senha"
+                      value={this.state.pass}
+                      onChange={this.atualizarStateSenha.bind(this)}
+                    />
+                    </div>
+                    <br/>
+                    <button type="submit" className="btn btn-lg btn-primary btn-block text-uppercase">
+                      Submit
+                    </button>
+                    <small  className="cor2">Não tem um cadastro?</small>
+                  </div>
             </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+      </body>
     );
   }
 }

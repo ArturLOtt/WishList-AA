@@ -9,6 +9,7 @@ import App from "./pages/components/Login/App";
 import Signin from "./pages/components/Signin/Signin";
 import NotFound from "./pages/components/NotFound/Notfound";
 import Listar from './pages/components/Listar/Listar';
+import ListarporUser from './pages/components/ListarPorUser/Listar';
 
 import {usuarioAutenticado} from "./services/auth";
 
@@ -27,7 +28,9 @@ const routing = (
       <Switch>
         <Route exact path="/" component={App} />
         <Permissao  path="/listar" component={Listar} />
-        <Route path="/signin" component={Signin} />    
+        <Permissao  path="/listarporuser" component={ListarporUser} />
+        <Route path="/signin" component={Signin} />
+        <Route component={NotFound}/>    
       </Switch>
     </div>
   </Router>

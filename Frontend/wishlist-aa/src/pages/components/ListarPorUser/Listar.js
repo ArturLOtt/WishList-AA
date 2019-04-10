@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Axios from "axios";
 
-class Listar extends Component {
+class ListarporUser extends Component {
   constructor(){
       super();
       this.state = {
@@ -16,7 +16,7 @@ class Listar extends Component {
   }
 
   listarDesejos(){
-      fetch('http://localhost:5000/api/wishes')
+      fetch('http://localhost:5000/api/wishes/SeusDesejos')
         .then(resposta => resposta.json())
         .then(data => this.setState({lista : data}))
         .catch((erro) => console.log(erro))
@@ -34,9 +34,6 @@ class Listar extends Component {
 
   adicionarDesejo(event){
     event.preventDefault();
-    
-    // alert(localStorage.getItem("usuario"));
-    
     fetch('http://localhost:5000/api/wishes',
     {
       method: 'POST',
@@ -50,34 +47,6 @@ class Listar extends Component {
         .then(this.listarDesejos())
         .catch(erro => console.log(erro))
   }
-
-
-
-
-
-
-//   adicionarDesejo(event){
-//     event.preventDefault();
-    
-//     Axios.post("http://localhost:5000/api/wishes", {
-//       wishDescription : this.state.wishDescription
-//     })
-//     .then(data => {
-//         if(data.status === 200){
-//             console.log(data);
-//             this.props.history.push("/tiposeventos");
-//         } 
-//     })
-//     .catch(erro => {
-//         this.setState({ erroMensagem : 'Email ou senha inválido'});
-//     })
-// }
-
-
-
-
-
-
 
   render() {
     return (
@@ -137,4 +106,4 @@ class Listar extends Component {
   }
 }
 
-export default Listar;
+export default ListarporUser;
