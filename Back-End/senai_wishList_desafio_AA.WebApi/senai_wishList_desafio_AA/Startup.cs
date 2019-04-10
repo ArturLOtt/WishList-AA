@@ -25,6 +25,10 @@ namespace senai_wishList_desafio_AA
                     options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore; // Ignora os nulos;
                 });
 
+<<<<<<< HEAD
+=======
+            //configurando cors
+>>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
@@ -34,12 +38,22 @@ namespace senai_wishList_desafio_AA
                         .AllowCredentials());
             });
 
+<<<<<<< HEAD
+=======
+            //configurando swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+            });
+
+>>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
             //Configurando a autenticação/jwt/token
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = "JwtBearer";
                 options.DefaultChallengeScheme = "JwtBearer";
             }
+                       
                 ).AddJwtBearer("JwtBearer", options =>
                 {
                     options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
@@ -76,7 +90,16 @@ namespace senai_wishList_desafio_AA
 
             app.UseCors("CorsPolicy");
 
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
+
             app.UseAuthentication();
+
+            app.UseCors("CorsPolicy");
 
             app.UseMvc();
         }

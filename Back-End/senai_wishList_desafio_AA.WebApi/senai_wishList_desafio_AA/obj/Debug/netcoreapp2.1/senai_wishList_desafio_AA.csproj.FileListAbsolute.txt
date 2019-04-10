@@ -12,6 +12,7 @@ C:\Users\44680479841\source\repos\senai_wishList_desafio_AA.WebApi\senai_wishLis
 C:\Users\44680479841\source\repos\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.RazorTargetAssemblyInfo.cache
 C:\Users\44680479841\source\repos\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.dll
 C:\Users\44680479841\source\repos\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.pdb
+<<<<<<< HEAD
 C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.deps.json
 C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.runtimeconfig.json
 C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.runtimeconfig.dev.json
@@ -26,3 +27,19 @@ C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishLi
 C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.RazorTargetAssemblyInfo.cache
 C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.dll
 C:\Users\44680479841\Desktop\senai-wishlist-AA\WishList-AA\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.pdb
+=======
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.deps.json
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.runtimeconfig.json
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.runtimeconfig.dev.json
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.dll
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\bin\Debug\netcoreapp2.1\senai_wishList_desafio_AA.pdb
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.csprojAssemblyReference.cache
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.csproj.CoreCompileInputs.cache
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.RazorAssemblyInfo.cache
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.RazorAssemblyInfo.cs
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.AssemblyInfoInputs.cache
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.AssemblyInfo.cs
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.RazorTargetAssemblyInfo.cache
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.dll
+C:\Users\22972804830\Documents\projetos\Senai_Tecnico\Sprint4 - FrontEnd\2019-04-08 projeto dupla\Back-End\senai_wishList_desafio_AA.WebApi\senai_wishList_desafio_AA\obj\Debug\netcoreapp2.1\senai_wishList_desafio_AA.pdb
+>>>>>>> 1724bcf16b0cbb17b8698d5486770c19023ffaf2
